@@ -13,3 +13,5 @@ void MODIFY_VEHICLE_TOP_SPEED(Vehicle vehicle, float value);
 * **vehicle**: 
 * **value**: 
 
+## Return value
+Returns a multiplier on the vehicles power, this appears to be percent based so if a vehicle goes 100mph with a modifier of 10 the vehicle will go 110 (this is subject to change with vehicle weight and areo)
